@@ -7165,3 +7165,523 @@
 [main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 41
 [main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 16:22:30 GMT
 [main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer noAuth
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : GET - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer noAuth
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : DELETE - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "somelogin",
+  "password" : "somepass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 400
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "error" : "Invalid username or password."
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Connection, value : close
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 41
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:58:58 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354739
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354784
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354798
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/projects
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "name" : "name2",
+  "description" : "mydescr",
+  "investedSum" : 72.54
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 201
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354914
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354923
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/projects
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "name" : "3123",
+  "description" : "dsad",
+  "investedSum" : -40.0
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 409
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "error" : "Project with name 3123 already exists."
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Transfer-Encoding, value : chunked
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json;charset=UTF-8
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354947
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : GET - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "id" : 11,
+  "name" : "name2",
+  "description" : "mydescr",
+  "categoryId" : 0,
+  "owner" : "login",
+  "investedSum" : 72.54,
+  "targetSum" : 0.0,
+  "creationDate" : null,
+  "targetDate" : null,
+  "status" : "PENDING"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Transfer-Encoding, value : chunked
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json;charset=UTF-8
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw",
+  "expirationTime" : 1619636354976
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjM1NH0.njPkhIpfwCcqMYqzUvVFmOLE1yES2MaQU0R7vvYbdNMkLjfF7zqL_XKgVP01qZMeCWTAsPU1XQuGJbUPgw2qtw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : DELETE - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 202
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "somelogin",
+  "password" : "somepass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 400
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "error" : "Invalid username or password."
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Connection, value : close
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 41
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 18:59:07 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw",
+  "expirationTime" : 1619636467920
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw",
+  "expirationTime" : 1619636467946
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw",
+  "expirationTime" : 1619636467958
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/projects
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "name" : "name2",
+  "description" : "mydescr",
+  "investedSum" : 72.54
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 201
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw",
+  "expirationTime" : 1619636467991
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw",
+  "expirationTime" : 1619636467999
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2N30.mHLhZT9q7mPOSHWcTbWst7mmS7kKeSa1wdf3Wuy76zWcji42Ea6hWmQAxMxddhSWnAjQgRIq-eAflopnFdBxzw
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/projects
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "name" : "3123",
+  "description" : "dsad",
+  "investedSum" : -40.0
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 409
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "error" : "Project with name 3123 already exists."
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Transfer-Encoding, value : chunked
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json;charset=UTF-8
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A",
+  "expirationTime" : 1619636468019
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : GET - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "id" : 12,
+  "name" : "name2",
+  "description" : "mydescr",
+  "categoryId" : 0,
+  "owner" : "login",
+  "investedSum" : 72.54,
+  "targetSum" : 0.0,
+  "creationDate" : null,
+  "targetDate" : null,
+  "status" : "PENDING"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Transfer-Encoding, value : chunked
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json;charset=UTF-8
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "login",
+  "password" : "pass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 200
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A",
+  "expirationTime" : 1619636468044
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Set-Cookie, value : Authorization=Bearer+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 224
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Auth : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2dpbiIsImV4cCI6MTYxOTYzNjQ2OH0.5e4DD51SlZIOoxDsIvzWT4SZxWuvkE3Qvmu5QsLgzcskueXphSuhHmZuV44fJg0DGBOcGHjudI4ZBraSRnSL4A
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : DELETE - http://localhost:8081/projects/name2
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 202
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Requesting : POST - http://localhost:8081/login
+[main] INFO  com.test.example.StepDefinitionsExample  - Request body : 
+{
+  "username" : "somelogin",
+  "password" : "somepass"
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Response code : 400
+[main] INFO  com.test.example.StepDefinitionsExample  - Response body : {
+  "error" : "Invalid username or password."
+}
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Frame-Options, value : DENY
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Cache-Control, value : no-cache, no-store, max-age=0, must-revalidate
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-Content-Type-Options, value : nosniff
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Connection, value : close
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Pragma, value : no-cache
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Expires, value : 0
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : X-XSS-Protection, value : 1; mode=block
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Length, value : 41
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Date, value : Wed, 28 Apr 2021 19:01:00 GMT
+[main] INFO  com.test.example.StepDefinitionsExample  - Header : Content-Type, value : application/json
