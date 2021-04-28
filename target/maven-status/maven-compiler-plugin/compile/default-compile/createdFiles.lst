@@ -1,0 +1,14 @@
+com\testingAPI\backend\utils\Authentication.class
+com\testingAPI\backend\model\Request$Builder.class
+com\testingAPI\backend\utils\JsonUtils.class
+com\testingAPI\backend\model\HttpMethod.class
+com\testingAPI\backend\utils\Authentication$Method.class
+com\testingAPI\backend\baseTesting\BaseStepDefinitions.class
+com\testingAPI\backend\utils\XmlHelper.class
+com\testingAPI\backend\utils\HttpUtils.class
+com\testingAPI\backend\utils\CsvUtils.class
+com\testingAPI\backend\utils\DateUtils.class
+com\testingAPI\backend\http\HttpExecutor.class
+com\testingAPI\backend\utils\PropertiesGetter.class
+com\testingAPI\backend\model\Request.class
+com\testingAPI\backend\model\Response.class
